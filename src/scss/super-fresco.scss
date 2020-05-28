@@ -1,0 +1,18 @@
+@import "vars";
+@import "bootstrap-components";
+@import "custom/custom_navs";
+@import "custom/custom-modal";
+@import "custom/custom_popover";
+@import "custom/custom-tables";
+
+// Corrige las dos flecha superpuestas que aparecen en el estilo .custom-select
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+// Elimina el contorno de los botones cuando el  usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del teclado.
+button:focus {
+  outline: 1px dotted;
+  outline: none
+}
