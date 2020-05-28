@@ -1,0 +1,25 @@
+.bs-ejemplo-seccion {
+}
+
+.titulo-seccion {
+  color: var(--primary);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.bs-componente {
+  .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block;
+
+    .modal-dialog {
+      max-width: none;
+      margin: 0;
+    }
+  }
+}
